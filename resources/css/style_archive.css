@@ -1,0 +1,115 @@
+html, body {
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.main-content {
+    position: relative;
+    top: 5.3125rem; /* To offset for fixed header. */
+}
+
+.center {
+    text-align: center;
+}
+
+/* header */
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 50;
+}
+
+header .content {
+    height: 85px;
+    background-color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0px;
+}
+
+header .logo {
+    color: #4a4a4a;
+    font-size: 24px;
+    font-family: "Roboto";
+}
+
+.content .mobile {
+    display: none;
+}
+
+header nav ul {
+    display: flex;
+    align-items: baseline;
+    list-style-type: none;
+}
+
+nav li{
+    padding-left: 3.5rem;
+}
+
+nav a {
+    vertical-align: bottom;
+    line-height: 1.6;
+    font-size: 1rem;
+    color: #4a4a4a;
+}
+
+nav .icon{
+    width: 1.2rem;
+    padding-left: 0.5rem;
+}
+
+/* banner */
+#sign-up-section {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 43.5rem;
+    background-image: url('../images/banner-landingpage.jpg');
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+#sign-up-cta {
+    padding: 32px 80px 56px 80px;
+    background-color: #9DC20A;
+    border: 1px solic #979797;
+    border-radius: 4px;
+    margin-top: 170px;
+    margin-left: 100px;
+    color: white;
+}
+
+#sign-up-cta .content {
+    width: 25.625rem;
+    margin-top: 2rem;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.25rem;
+    line-height: 1.4;
+    color: white;
+  }
+
+#sign-up-cta .button {
+    font-size: 20px;
+    line-height: 1.4;
+    width: 408px;
+    height: 64px;
+    background-color: #4a4a4a;
+    border-radius: 4px;
+    margin-top: 1.625rem;
+    padding: 1.25rem 7.25rem;
+}
+
+
+
+.header .cursive {
+    font-family: "Damion", cursive;
+}
